@@ -10,7 +10,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/roomease",
                 "root",
-                "password"   // change password
+                "Nithu_1103"   // change password
             );
         } catch (Exception e) {
             e.printStackTrace();
